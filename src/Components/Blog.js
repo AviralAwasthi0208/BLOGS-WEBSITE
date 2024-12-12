@@ -6,7 +6,7 @@ import "./Blogs.css";
     //consume
     const{posts,loading} = useContext(AppContext);
    return (
-     <div className="w-11/12 max-w-[670px]  h-screen py-8 flex flex-col gap-y-10 mt-[70px] mb-[64px] justify-center items-center">
+     <div className="w-11/12 max-w-[670px] py-8 flex flex-col gap-y-10 mt-[70px] mb-[64px] justify-center items-center">
 
      {
         loading ?
